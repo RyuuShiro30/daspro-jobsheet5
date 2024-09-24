@@ -6,14 +6,13 @@ public class PemilihanPercobaan108 {
         Scanner input00 = new Scanner(System.in);
         // deklarasi
         int angka;
+        String hasil;
 
         System.out.println("angka: ");
         angka = input00.nextInt();
 
-        if (angka % 2 == 0)
-            System.out.println("angka" + angka + "bilangan genap");
-        else
-            System.out.println("angka " + angka + "bilangan ganjil");
+        hasil = (angka % 2 == 0) ? "Bilangan genap" : "Bilangan ganjil";
 
+        System.out.println(angka + "adalah" + hasil);
     }
 }
