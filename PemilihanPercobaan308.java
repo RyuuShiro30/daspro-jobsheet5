@@ -39,7 +39,7 @@ public class PemilihanPercobaan308 {
                 break;
 
             default:
-                System.out.println("operasi tidak valid");
+                System.out.println("operasi yang dipilih tidak sesuai");
                 break;
         }
 
